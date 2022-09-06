@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('build_app') {
       steps {
-        sh 'echo "this is build stage running on 'hostname' host!"'
+        sh 'echo "this is build stage!"'
       }
     }
     stage('app_testing') {
       steps {
-        sh 'echo "this is test stage running on 'hostname' host!"'
+        sh 'echo "this is test stage!"'
       }
     }
   }
